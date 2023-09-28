@@ -8,7 +8,7 @@ const BlogPage: React.FC = () => {
     <div className="w-full flex flex-col justify-center items-center">
       <div className="w-full flex flex-col justify-center items-start px-8 pt-8 md:max-w-lg">
         <Image
-          src=".memojis/blog.png"
+          src="/memojis/blog.png"
           alt="Memoji doing prayer hands to symbolise a namaste"
           width="100"
           height="100"
