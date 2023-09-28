@@ -19,7 +19,7 @@ const HomePage: React.FC = () => {
         <div className="relative min-h-screen w-full flex flex-col justify-center items-start p-8 md:max-w-lg">
           <div className="relative mb-2">
             <Image
-              src=".memojis/namaste.png"
+              src="/memojis/namaste.png"
               alt="Memoji doing prayer hands to symbolise a namaste"
               width="100"
               height="100"
@@ -27,7 +27,7 @@ const HomePage: React.FC = () => {
             />
 
             <Image
-              src=".icons/chat_bubble.png"
+              src="/icons/chat_bubble.png"
               alt="Chat bubble"
               width="100"
               height="100"
@@ -54,7 +54,7 @@ const HomePage: React.FC = () => {
       <div className="w-full flex flex-col justify-center items-center bg-gray-200">
         <div className="w-full flex flex-col justify-center items-start px-8 pt-8 md:max-w-lg">
           <Image
-            src=".memojis/blog.png"
+            src="/memojis/blog.png"
             alt="Memoji doing prayer hands to symbolise a namaste"
             width="100"
             height="100"
@@ -110,7 +110,7 @@ const HomePage: React.FC = () => {
           id="contact-me"
         >
           <Image
-            src=".memojis/contact.png"
+            src="/memojis/contact.png"
             alt="Memoji doing prayer hands to symbolise a namaste"
             width="100"
             height="100"
