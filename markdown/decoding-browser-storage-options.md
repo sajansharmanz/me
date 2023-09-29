@@ -18,8 +18,8 @@ The storage option to select is _Cookies_ .
 We must ensure that the cookie is set up in a secure fashion, the following are some important implementation steps.
 
 - Ensure the cookie is cryptographically signed (varies based on framework used).
-- Ensure the *httpOnly *flag is being set to true on the cookie when created.
-- Ensure the *SameSite=strict *flag is being set to prevent CSRF attacks.
+- Ensure the _httpOnly_ flag is being set to true on the cookie when created.
+- Ensure the _SameSite=strict_ flag is being set to prevent CSRF attacks.
 
 ## **Non-Sensitive Data**
 
@@ -27,7 +27,7 @@ Data that you don’t mind being publicly available.
 
 **_String Data_**
 
-If you are looking to store data which is purely strings, the storage option to select is either *LocalStorage *or _SessionStorage._
+If you are looking to store data which is purely strings, the storage option to select is either _LocalStorage_ or _SessionStorage._
 
 Of course, you could serialize everything, but this is a hack, the browser provides a solution for more complex data, which is more performant for large applications.
 
@@ -38,7 +38,7 @@ _Possible library to use:_
 
 **_Non-String Data_**
 
-If you are looking to store data which is not purely strings, the storage option to select is *IndexDB. *This storage allows you to work with a database-esque object store in the browser.
+If you are looking to store data which is not purely strings, the storage option to select is _IndexDB_. This storage allows you to work with a database-esque object store in the browser.
 
 It allows you to store typed information, define primary keys, handle indexing, and create transactions to prevent data integrity issues. A great resource to learn how to use this is located at [https://web.dev/indexeddb/](https://web.dev/indexeddb/).
 
